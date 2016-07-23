@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:background="@drawable/background"
+    >
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgplay"
+        android:src="@drawable/play"
+        android:layout_above="@+id/imgabout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:paddingBottom="0dp"
+        android:paddingTop="0dp"
+        android:background="@drawable/play" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgabout"
+        android:src="@drawable/about"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:paddingBottom="0dp"
+        android:paddingTop="0dp"
+        android:background="@drawable/about"
+        android:layout_above="@+id/imgExit"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="44dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgExit"
+        android:src="@drawable/exit"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:paddingBottom="0dp"
+        android:paddingTop="0dp"
+        android:background="@drawable/exit"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/imgplay"
+        android:layout_alignStart="@+id/imgplay"
+        android:layout_marginBottom="50dp" />
+
+
+</RelativeLayout>

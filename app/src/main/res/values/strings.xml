@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">FLAME GAME</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_play">playActivity</string>
+    <string name="title_activity_about">aboutActivity</string>
+    <string name="title_activity_setting">settingActivity</string>
+    <string name="title_activity_finalactivity">finalactivity</string>
+    <string name="desc">Note: This is just a fun game. No results from this app mean to hurt anyone. The owner of the app is not responsible for good or bad circumstances resulting from this app.</string>
+    <string name="devdesc"><b>Developed By:\nTeam ATOM\n(Vellore Institute of Technology, Vellore</b>)</string>
+    <string name="abt">Flame is Relationship Compatibility fun Game that finds possible relationship status between two partner.</string>
+</resources>
